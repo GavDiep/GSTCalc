@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grocery Store Tax</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <!-- Font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Lemon&family=Maven+Pro&family=Montserrat&family=New+Tegomin&family=Open+Sans&family=Young+Serif&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Alberta Grocery Store Tax Calculator</h1>
+    <div id="items">
+      <p>Item 1:<input type="text" name="item1" id="item1" />$</p>
+      <p>Item 2:<input type="text" name="item2" id="item2" />$</p>
+      <p>Item 3:<input type="text" name="item3" id="item3" />$</p>
+      <p>Item 4:<input type="text" name="item4" id="item4" />$</p>
+      <p>Item 5:<input type="text" name="item5" id="item5" />$</p>
+      <p>Item 6:<input type="text" name="item6" id="item6" />$</p>
+      <p>Discount:<input type="text" name="Discount" id="disc" /></p>
+    </div>
+    <br />
+    <p><button id="btn">Calculate Total</button></p>
+
+    <div id="receipt">
+      <h3 class="white">Total Price</h3>
+      <p id="total">------</p>
+    </div>
+
+    <p><ol id="instructions"></p>
+      Instructions:
+      <li>Input your grocery store items price above.</li>
+      <li>Add up the prices of multiple items to fit into the calculator.</li>
+      <li>Apply a discount if you have one.</li>
+      <li>Discounts accepted are only in decimal form. <br>
+         (E.g full cart discount of 10% is 0.10)</li>
+      <li>Press the button to calculate the total.</li>
+      <li>Your total will appear on a ticket stub below.</li>
+    </ol>
+    <p class="white">(If you don't have an applicable discount then input a 0)</p>
+  </body>
+</html>

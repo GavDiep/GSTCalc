@@ -1,0 +1,34 @@
+html {
+  background: url(img/store.jpg) center no-repeat;
+  background-size: fill;
+}
+
+body {
+  background-color: #3eb489;
+  width: 600px;
+  margin: 30px auto;
+  padding: 10px;
+  font-family: "Kanit", sans-serif;
+  border: 2px solid #152c55;
+  border-radius: 25px;
+}
+
+#items {
+  background-color: #ffe5b4;
+  border-radius: 15px;
+  padding: 5px;
+  border: 2px solid #032436;
+  margin-right: 300px;
+  color: black;
+}
+
+#btn {
+  border-radius: 10px;
+  border: 2px solid black;
+  padding: 5px;
+  background-color: yellow;
+}
+
+#instructions {
+  border-radius: 2px solid black;
+}
